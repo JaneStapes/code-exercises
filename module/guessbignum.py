@@ -1,9 +1,10 @@
 from random import randint
+import newbies
 
 x = randint(1,999)
 guess = -1
 
-print("Guess my number between 0 and 1000: ")
+newbies.printplus()
 
 while guess != x:
     guess = int(input("Pick your number: "))
