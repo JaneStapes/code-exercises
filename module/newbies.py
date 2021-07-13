@@ -1,3 +1,2 @@
-def printplus():
-    
-    print("Guess my number between 0 and 1000: ")
+def printplus(x):
+        print(x)
